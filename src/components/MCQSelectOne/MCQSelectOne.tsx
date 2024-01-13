@@ -13,7 +13,6 @@ import { McqOption } from "../McqOption";
 import { MCQSelectOneQuestionData } from "../../models";
 import calcFontSize from "../../utils/calcFontSize";
 import { useState } from "react";
-import { TfiClose } from "react-icons/tfi";
 import { IoClose } from "react-icons/io5";
 import IndexHeader from "../IndexHeader/IndexHeader";
 
