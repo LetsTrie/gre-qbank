@@ -78,8 +78,38 @@ export const noteSections: NoteSection[] = [
       },
       {
         latexCodes: formatLatexCode(
-          "The average of three consecutive integers is always equal to the middle value, and is always equal to the average",
-          "of the smallest and largest terms. TODO: Add example here..."
+          "The average of three consecutive integers is always equal to the middle value,",
+          "and is always equal to the average of the smallest and largest terms."
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          "Mean of N consecutive integers =",
+          "$a + \\frac{N-1}{2}.$",
+          "(This is derived from",
+          "$\\frac{\\frac{N}{2} \\{2a+(N-1)d\\}}{N}).$",
+          "In a list of 10 consecutive integers, the mean will be the average of the 5th and 6th numbers."
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          "The number of integers from A to B (inclusive): B - A + 1\n",
+          "The number of integers from A to B (exclusive): B - A - 1\n"
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          "Number of Primes from 1 to 100:\n",
+          "1 to 9 (4 Primes): 2, 3, 5, 7\n",
+          "10 to 19 (4 Primes): 11, 13, 17, 19\n",
+          "20 to 29 (2 Primes): 23, 29\n",
+          "30 to 39 (2 Primes): 31, 37\n",
+          "40 to 49 (3 Primes): 41, 43, 47\n",
+          "50 to 59 (2 Primes): 53, 59\n",
+          "60 to 69 (2 Primes): 61, 67\n",
+          "70 to 79 (3 Primes): 71, 73, 79\n",
+          "80 to 89 (2 Primes): 83, 89\n",
+          "90 to 99 (1 Prime): 97\n"
         ),
       },
     ],
@@ -504,6 +534,7 @@ export const noteSections: NoteSection[] = [
         latexCodes: formatLatexCode(
           "Manhattab 5Lb. Book of GRE Practice Problems\n",
           "- Chapter 23: Probability, Combinatorics, and Overlapping Sets: 1, 3, 12, 18, 19, 20, 21, 22... (Continue from 23.)\n",
+          "- Chapter 28: Coordinate Geometry: 1, 7, 8, 10, 15, 16, 17, 23, 24, 28, 29, 30.\n",
           "- Chapter 33: (Math Practice Section 1: Easy Difficult): 4, 6, 7, 20.\n",
           "- Chapter 33: (Math Practice Section 2: Medium Difficult): 3, 5, 7, 12, 13, 14, 16, 18, 20.\n"
         ),
