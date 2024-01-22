@@ -533,6 +533,8 @@ export const noteSections: NoteSection[] = [
       {
         latexCodes: formatLatexCode(
           "Manhattab 5Lb. Book of GRE Practice Problems\n",
+          "- Chapter 20: Ratios: 1, 2, 3, 14, 17, 21, 23... (Continue from 24.)\n",
+          "- Chapter 21: Averages, Weighted Averages, Median, and Mode: 2, 5, 8... (Continue from 12.)\n",
           "- Chapter 23: Probability, Combinatorics, and Overlapping Sets: 1, 3, 12, 18, 19, 20, 21, 22... (Continue from 23.)\n",
           "- Chapter 28: Coordinate Geometry: 1, 7, 8, 10, 15, 16, 17, 23, 24, 28, 29, 30.\n",
           "- Chapter 33: (Math Practice Section 1: Easy Difficult): 4, 6, 7, 20.\n",
