@@ -298,6 +298,20 @@ export const noteSections: NoteSection[] = [
       },
       {
         latexCodes: formatLatexCode(
+          `1 Trillion = `,
+          `$10^3$`,
+          `Billion`,
+          `$${thickSpace}$`,
+          `1 Billion = `,
+          `$10^3$`,
+          `Million`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(`$2^0+2^1+2^2+...+2^n = 2^{n+1} - 1$`),
+      },
+      {
+        latexCodes: formatLatexCode(
           `If given a quadratic inequality (i.e.,`,
           `$ax^2+bx+c<0$`,
           `first solve for when the expression is equal to 0, then use a number line to check which values of x fulfill the inequality.`
@@ -533,7 +547,7 @@ export const noteSections: NoteSection[] = [
       {
         latexCodes: formatLatexCode(
           "Manhattab 5Lb. Book of GRE Practice Problems\n",
-          "- Chapter 7: Arithmetic: 12... (Continue from 14.)\n",
+          "- Chapter 7: Arithmetic: 12, 16, 18, 19, 20, 21, 24, 34, 37\n",
           "- Chapter 20: Ratios: 1, 2, 3, 14, 17, 21, 23... (Continue from 24.)\n",
           "- Chapter 21: Averages, Weighted Averages, Median, and Mode: 2, 5, 8... (Continue from 12.)\n",
           "- Chapter 23: Probability, Combinatorics, and Overlapping Sets: 1, 3, 12, 18, 19, 20, 21, 22... (Continue from 23.)\n",
