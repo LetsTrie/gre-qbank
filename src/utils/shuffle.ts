@@ -1,5 +1,4 @@
 export default function <T>(array: T[]) {
-  return array;
   let currentIndex = array.length,
     randomIndex;
 

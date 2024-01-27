@@ -16,9 +16,11 @@ export const Dashboard = () => {
     <div className="p-5 bg-gray-50">
       <h1 className="hero-header text-center">GRE MATH</h1>
       <div className="pb-5 text-end">
-        <Button variant="outlined">
-          <Link to="/notes">Notes</Link>
-        </Button>
+        <Link to="/notes">
+          <Button size="large" variant="contained">
+            Notes
+          </Button>
+        </Link>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-between">
         {questionBank.map((question, index) => (

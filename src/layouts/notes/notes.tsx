@@ -1,6 +1,7 @@
 import { Container } from "@mui/material";
 import { LatexBlock } from "../../components/LatexBlock";
 import { noteSections } from "./data";
+import _5lbBook from "../../assets/books/Manhattab 5Lb (Five Pound) .pdf";
 
 export const Notes = () => {
   return (
@@ -21,6 +22,16 @@ export const Notes = () => {
           </ol>
         </>
       ))}
+      <div>
+        <h2 className="text-4xl font-bold py-5">Books</h2>
+        <ol className="list-disc ps-8 ms-5">
+          <li>
+            <a href={_5lbBook} target="_blank">
+              5 lb. Book of GRE Practice Problems Problems
+            </a>
+          </li>
+        </ol>
+      </div>
     </Container>
   );
 };
