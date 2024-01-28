@@ -550,7 +550,7 @@ export const noteSections: NoteSection[] = [
           "- Chapter 07: Arithmetic: 12, 16, 18, 19, 20, 21, 24, 34, 37.\n",
           "- Chapter 08: Algebra: 5, 11, 21, 25, 26, 37, 41, 44, 49, 52.\n",
           "- Chapter 09: Inequalities and Absolute Values: 9, 18, 19, 21, 22, 23, 25, 26, 27, 28, 30... (Continue from 31-55.)\n",
-          "- Chapter 10: Functions, Formulas, and Sequences: 4, 11, 12... (Continue from 13.)\n",
+          "- Chapter 10: Functions, Formulas, and Sequences: 4, 11, 12... (Continue from 17.)\n",
           "- Chapter 20: Ratios: 1, 2, 3, 14, 17, 21, 23... (Continue from 24.)\n",
           "- Chapter 21: Averages, Weighted Averages, Median, and Mode: 2, 5, 8... (Continue from 12.)\n",
           "- Chapter 23: Probability, Combinatorics, and Overlapping Sets: 1, 3, 12, 18, 19, 20, 21, 22... (Continue from 23.)\n",
