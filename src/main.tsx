@@ -6,7 +6,7 @@ import "katex/dist/katex.min.css";
 import App from "./App.tsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Dashboard, Notes, Vocabulary } from "./layouts";
+import { Dashboard, Notes, Vocabulary, InterviewQuestion } from "./layouts";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/vocabulary",
         element: <Vocabulary />,
+      },
+      {
+        path: "/interview-questions",
+        element: <InterviewQuestion />,
       },
     ],
   },

@@ -30,6 +30,13 @@ export const Dashboard = () => {
             </Button>
           </Link>
         </Box> */}
+        <Box ml={1} component="div" sx={{ display: "inline" }}>
+          <Link to="/interview-questions">
+            <Button size="large" variant="contained">
+              Interview Questions
+            </Button>
+          </Link>
+        </Box>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-between">
         {questionBank.map((question, index) => (
