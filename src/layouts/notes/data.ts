@@ -14,13 +14,105 @@ const thickSpace = `\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;`;
 
 export const noteSections: NoteSection[] = [
   {
-    headerText: "Arithmetic",
+    headerText: "Numbers and Basic Operations",
     notes: [
       {
         latexCodes: formatLatexCode(
-          `The integer zero is neither positive nor negative, but it is even.`
+          `The "integer" zero is neither positive nor negative, but it is even.\n`,
+          `It has no positive or negative counterparts as well.\n`,
+          `0 is a multiple of any number. 0 is a factor of only 0.\n`,
+          `$0^0$`,
+          `is undefined. `,
+          `$0^0$`,
+          ` != 0. \n`,
+          `$x^0$`,
+          `= 1 where x != 0.\n`,
+          `0! = 1. \n`,
+          `The reciprocal of 0 is undefined (a number's reciprocal is when you flip it).\n`,
+          `Smallest non-negative integer = 0.\n`,
+          `Smallest non-negative multiple of a number = 0.\n`,
+          `Caution: Whenever you need to work with "digits", you must consider 0.`
         ),
       },
+      {
+        latexCodes: formatLatexCode(
+          `Common measurements: \n 1 foot = 12 inches \n 1 yard = 3 feet \n 1 quart = 2 pints \n 1 gallon = 4 quarts \n 1 pound = 16 ounces`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode("Fractions and infinity are not integers."),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Negative numbers`,
+          `are not whole numbers.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Fractions don't have any even or odd feature.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Negative factors of a number are just the negatives of the positive factors of that number.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `The positive number 1 has the fewest factors.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Don't create confusion with factors and multiples:\n`,
+          `$4 * 12 = 48$`,
+          `\n48 is a multiple of both 4 and 12.\n`,
+          `4 and 12 are divisors (or factors) of 48.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `How many 3s are there in`,
+          `$10!$`,
+          `? Ans:`,
+          `$(\\frac{10}{3} + \\frac{10}{9}) = 4$`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `How many 4s are there in`,
+          `$15!$`,
+          `? Ans:`,
+          `$(\\frac{15}{4}) = 3$`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `It is increasingly harder to find primes as the number gets larger.\n`,
+          `Number of primes in the interval [0, 1000] is greater than the number of primes in the interval [10^8, 10^8 + 1000].`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(`There are 158 primes between 0 and 1000.`),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `If x = a^3 * b^4 * c^3, where a, b, and c are distinct prime numbers, then x + 1 must contain prime factor(s) different from a, b, and c.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Natural/Counting numbers: 1, 2, 3, ..., inf\n`,
+          `Whole numbers: 0, 1, 2, 3, ..., inf\n`,
+          `Integers: -inf, ..., -3, -2, -1, 0, 1, 2, 3, ..., inf\n`
+        ),
+      },
+    ],
+  },
+  {
+    headerText: "Arithmetic",
+    notes: [
       {
         latexCodes: formatLatexCode(
           `$33\\frac{1}{3}\\%=\\frac{1}{3}=0.333...\\newline$`,
@@ -28,11 +120,6 @@ export const noteSections: NoteSection[] = [
           `$25\\%=\\frac{1}{4}=0.25 ${thickSpace}$`,
           `$50\\%=\\frac{1}{2}=0.50 ${thickSpace}$`,
           `$60\\%=\\frac{3}{5}=0.60\\newline$`
-        ),
-      },
-      {
-        latexCodes: formatLatexCode(
-          `Common measurements: \n 1 foot = 12 inches \n 1 yard = 3 feet \n 1 quart = 2 pints \n 1 gallon = 4 quarts \n 1 pound = 16 ounces`
         ),
       },
       {
@@ -53,22 +140,42 @@ export const noteSections: NoteSection[] = [
       },
       {
         latexCodes: formatLatexCode(
-          `$\\frac{6}{62}$`,
-          "is less than",
-          `$\\frac{6}{60}.$`
+          `The sum of the first n natural numbers is`,
+          `$\\frac{n(n + 1)}{2}$`,
+          `.`
         ),
       },
       {
         latexCodes: formatLatexCode(
-          `$\\frac{12}{99}$`,
-          "is greater than",
-          `$\\frac{12}{100}.$`
+          `The sum of integers from A to B (inclusive) is`,
+          `$\\frac{B(B + 1)}{2} - \\frac{(A - 1)A}{2}$`,
+          `.`
         ),
       },
       {
         latexCodes: formatLatexCode(
-          `Important Pythagorean Triples:\n`,
-          `$(10, 24, 26)${thickSpace}$`
+          `The sum of integers from A to B (exclusive) is`,
+          `$\\frac{B(B + 1)}{2} - \\frac{(A - 1)A}{2} - A - B$`,
+          `.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Examples of prime factorization:\n`,
+          `10 = 5 * 2\n`,
+          `100 = 5^2 * 2^2\n`,
+          `1000 = 5^3 * 2^3`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `To find how many factors 720 has, first find its prime factorization:`,
+          `$2^4 * 3^2 * 5$`,
+          `. All of its factors will be of the form`,
+          `$2^a * 3^b * 5^c$`,
+          `. Now there are five choices for a (a= 0, 1, 2, 3, or 4), three choices for b (b = 0, 1,`,
+          `or 2), and two choices for c (c= 0 or 1). The total number of factors is therefore`,
+          `5 x 3 x 2 = 30. 720 has 30 factors.`
         ),
       },
       {
@@ -93,23 +200,20 @@ export const noteSections: NoteSection[] = [
       },
       {
         latexCodes: formatLatexCode(
-          "The number of integers from A to B (inclusive): B - A + 1\n",
-          "The number of integers from A to B (exclusive): B - A - 1\n"
+          "The number of integers from A to B (inclusive): B - A + 1.\n",
+          "The number of integers from A to B (exclusive): B - A - 1.\n"
         ),
       },
       {
         latexCodes: formatLatexCode(
-          "Number of Primes from 1 to 100:\n",
-          "1 to 9 (4 Primes): 2, 3, 5, 7\n",
-          "10 to 19 (4 Primes): 11, 13, 17, 19\n",
-          "20 to 29 (2 Primes): 23, 29\n",
-          "30 to 39 (2 Primes): 31, 37\n",
-          "40 to 49 (3 Primes): 41, 43, 47\n",
-          "50 to 59 (2 Primes): 53, 59\n",
-          "60 to 69 (2 Primes): 61, 67\n",
-          "70 to 79 (3 Primes): 71, 73, 79\n",
-          "80 to 89 (2 Primes): 83, 89\n",
-          "90 to 99 (1 Prime): 97\n"
+          `Memorize the value of factorials:\n`,
+          `1! = 1\n`,
+          `2! = 2\n`,
+          `3! = 6\n`,
+          `4! = 24\n`,
+          `5! = 120\n`,
+          `6! = 5! x 6 = 720\n`,
+          `7! = 5! x 6 x 7 = 5040\n`
         ),
       },
     ],
@@ -122,21 +226,17 @@ export const noteSections: NoteSection[] = [
           `Memorize all primes below 60: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59…`
         ),
       },
-    ],
-  },
-  {
-    headerText: "Factorization",
-    notes: [
+      {
+        latexCodes: formatLatexCode(`The one and only even prime number is 2.`),
+      },
       {
         latexCodes: formatLatexCode(
-          `To find how many factors 720 has, first find its prime factorization:`,
-          `$2^4 * 3^2 * 5$`,
-          `. All of its factors will be of the form`,
-          `$2^a * 3^b * 5^c$`,
-          `. Now there are five choices for a (a= 0, 1, 2, 3, or 4), three choices for b (b = 0, 1,`,
-          `or 2), and two choices for c (c= 0 or 1). The total number of factors is therefore`,
-          `5 x 3 x 2 = 30. 720 has 30 factors.`
+          `It is increasingly harder to find primes as the number gets larger.\n`,
+          `Number of primes in the interval [0, 1000] is greater than the number of primes in the interval [10^8, 10^8 + 1000].`
         ),
+      },
+      {
+        latexCodes: formatLatexCode(`There are 158 primes between 0 and 1000.`),
       },
     ],
   },
@@ -163,6 +263,17 @@ export const noteSections: NoteSection[] = [
         ),
       },
       { latexCodes: formatLatexCode("9 - sum of digits is divisible by 9") },
+      {
+        latexCodes: formatLatexCode(
+          `Divisibility rule for 11: If the difference between the sum of its digits in odd places and the sum of its digits in even places is 0, or a multiple of 11, then it is divisible by 11.\n \nExample 1: 292215\n`,
+          `Sum of digits in odd places: 2 + 2 + 1 = 5\n`,
+          `Sum of digits in even places: 9 + 2 + 5 = 16\n`,
+          `Difference is 11. Therefore, it is divisible by 11. \n \nExample 2: 3756\n`,
+          `Sum of digits in odd places: 3 + 5 = 8\n`,
+          `Sum of digits in even places: 7 + 6 = 13\n`,
+          `Difference is neither 0 nor a multiple of 11. Therefore, it is not divisible by 11.`
+        ),
+      },
     ],
   },
   {
@@ -537,6 +648,119 @@ export const noteSections: NoteSection[] = [
           "The graph of",
           "$y=ax^2+bx+c$",
           "is a symmetrical shape called a parabola, which open upwards if a > 0 and down if a < 0."
+        ),
+      },
+    ],
+  },
+  {
+    headerText: "Advanced Arithmetic and Concepts",
+    notes: [
+      {
+        latexCodes: formatLatexCode(
+          `If`,
+          `$x > y$`,
+          `and`,
+          "A > 0",
+          `then`,
+          `$\\frac{A}{x} < \\frac{A}{y}$`,
+          `.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `If`,
+          `$x > y$`,
+          `and`,
+          "A > 0",
+          `then`,
+          `$\\frac{x}{A} > \\frac{y}{A}$`,
+          `.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `The lowest number that is not divisible by`,
+          `$20!$`,
+          `is the next prime number after 20, which is 23. Other prime numbers not divisible by`,
+          `20! are 29, 31, 37, and so on.`,
+          `Non-prime divisors are generated by multiplying these primes by smaller integers, resulting in a sorted form of composite numbers, such as`,
+          `(23 * 2), (23 * 3), (29 * 2), (29 * 3), and so on.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Memorize the value of factorials:\n`,
+          `1! = 1\n`,
+          `2! = 2\n`,
+          `3! = 6\n`,
+          `4! = 24\n`,
+          `5! = 120\n`,
+          `6! = 5! x 6 = 720\n`,
+          `7! = 5! x 6 x 7 = 5040\n`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `How many multiples of 3 are there between 85 and 221 (inclusive):\n`,
+          `(85 MOD 3) != 0 => Make it 87.\n`,
+          `(221 MOD 3) != 0 => Make it 219.\n`,
+          `Answer: `,
+          `$\\frac{219}{3} - \\frac{87}{3} + 1$`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `The sum of multiples of 10 from 1000 to 2000 (inclusive):\n`,
+          `$=1000 + 1010 + ... + 2000$`,
+          "\n",
+          `$= 10  \\times (100 + 101 + ... + 200)$`,
+          "\n",
+          `$= 10 \\times \\frac{101}{2} \\times \\{2 \\times 100 + (101 - 1)\\}$`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Number of trailing zeros in`,
+          `$60!$`,
+          `: Count the number of 5s in it: `,
+          `$(\\frac{60}{5} + \\frac{60}{25}) = 13$`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `(30! + 29): Is it a prime number?\n`,
+          `30! is the product of all integers from 1 to 30. Therefore, 30! is divisible by all integers from 1 to 30.\n`,
+          `Since 30! is divisible by 29, 30! + 29 can be written as:\n`,
+          `30! + 29 = 29k + 29 = 29(k + 1) `,
+          `where k is an integer.\n`,
+          `So , (30! + 29) is clearly divisible by 29.`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Find the largest possible value of x in `,
+          `$\\frac{1000!}{77^x}$`,
+          `?\n`,
+          `$\\frac{1000!}{77^x} = \\frac{1000!}{7^x * 11^x}$`,
+          `\nTo find the largest value of x, we consider the divisibility of 1000! by 11 (since 11 is the limiting factor)\n`,
+          `Answer: `,
+          `$\\frac{1000}{11} + \\frac{1000}{121} = 98$`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Tricky formula to get the sum of all integers from 50 to 300:\n\n`,
+          `Sequence: 50, 51, 52, ..., 298, 299, 300\n`,
+          `Pairs: (50, 300), (51, 299), (52, 298)...\n`,
+          `Pair sum = 350\n`,
+          `Pair count: (300 - 50 + 1) / 2 = 125.5\n`,
+          `Sum = 125.5 * 350\n\n`,
+          `Similarly, to find the sum of multiples in an interval:\n`,
+          `Example: Sum of all multiples of 6 from 75 to 286?\n`,
+          `Sequence: 78, 84, ..., 276, 282\n`,
+          `Pairs: (78, 282), (84, 276)\n`,
+          `Pair sum = 360\n`,
+          `Answer: ((282/6) - (78/6) + 1) / 2 * 360`
         ),
       },
     ],
