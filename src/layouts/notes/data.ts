@@ -771,9 +771,9 @@ export const noteSections: NoteSection[] = [
       {
         latexCodes: formatLatexCode(
           "Manhattab 5Lb. Book of GRE Practice Problems\n",
-          "- Chapter 07: Arithmetic: 12, 16, 18, 19, 20, 21, 24, 34, 37.\n",
-          "- Chapter 08: Algebra: 5, 11, 21, 25, 26, 37, 41, 44, 49, 52.\n",
-          "- Chapter 09: Inequalities and Absolute Values: 9, 18, 19, 21, 22, 23, 25, 26, 27, 28, 30... (Continue from 31-55.)\n",
+          "- Chapter 07: Arithmetic: 12, 14, 16, 18, 24, 34.\n",
+          "- Chapter 08: Algebra: 30, 41, 52.\n",
+          "- Chapter 09: Inequalities and Absolute Values: 7, 9, 13, 20, 23, 25, 26, 27, 28, 30... (Continue from 31-55.)\n",
           "- Chapter 10: Functions, Formulas, and Sequences: 4, 11, 12, 25, 26, 39, 40, 50, 52, 56, 63, 69, 70, 71, 72.\n",
           "- Chapter 11: Fractions and Decimals: 4, 6, 8, 10... (Continue from 11.)\n",
           "- Chapter 13: Divisibility and Primes: 6, 9, 10, 13... (Continue from 15.)\n",
