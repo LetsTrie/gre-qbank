@@ -766,23 +766,23 @@ export const noteSections: NoteSection[] = [
     ],
   },
   {
-    headerText: "TODO List",
+    headerText: "Important Maths",
     notes: [
       {
         latexCodes: formatLatexCode(
           "Manhattab 5Lb. Book of GRE Practice Problems\n",
-          "- Chapter 07: Arithmetic: 12, 14, 16, 18, 24, 34.\n",
-          "- Chapter 08: Algebra: 30, 41, 52.\n",
-          "- Chapter 09: Inequalities and Absolute Values: 7, 9, 13, 20, 23, 25, 26, 27, 28, 30... (Continue from 31-55.)\n",
-          "- Chapter 10: Functions, Formulas, and Sequences: 4, 11, 12, 25, 26, 39, 40, 50, 52, 56, 63, 69, 70, 71, 72.\n",
-          "- Chapter 11: Fractions and Decimals: 4, 6, 8, 10... (Continue from 11.)\n",
-          "- Chapter 13: Divisibility and Primes: 6, 9, 10, 13... (Continue from 15.)\n",
-          "- Chapter 20: Ratios: 1, 2, 3, 14, 17, 21, 23... (Continue from 24.)\n",
-          "- Chapter 21: Averages, Weighted Averages, Median, and Mode: 2, 5, 8... (Continue from 12.)\n",
-          "- Chapter 23: Probability, Combinatorics, and Overlapping Sets: 1, 3, 12, 18, 19, 20, 21, 22... (Continue from 23.)\n",
-          "- Chapter 28: Coordinate Geometry: 1, 7, 8, 10, 15, 16, 17, 23, 24, 28, 29, 30.\n",
-          "- Chapter 33: (Math Practice Section 1: Easy Difficult): 4, 6, 7, 20.\n",
-          "- Chapter 33: (Math Practice Section 2: Medium Difficult): 3, 5, 7, 12, 13, 14, 16, 18, 20.\n"
+          "- Chapter 07: 12, 14, 16, 18, 24, 34.\n",
+          "- Chapter 08: 30, 41, 52.\n",
+          "- Chapter 09: 7, 9, 13, 20, 23, 25, 26, 27, 28, 30... (Continue from 31-55.)\n",
+          "- Chapter 10: 4, 11, 12, 25, 26, 39, 40, 50, 52, 56, 63, 69, 70, 71, 72.\n",
+          "- Chapter 11: 4, 6, 8, 10... (Continue from 11.)\n",
+          "- Chapter 13: 6, 9, 10, 13... (Continue from 15.)\n",
+          "- Chapter 20: 1, 2, 3, 14, 17, 21, 23... (Continue from 24.)\n",
+          "- Chapter 21: 2, 5, 8... (Continue from 12.)\n",
+          "- Chapter 23: 1, 3, 12, 18, 19, 20, 21, 22... (Continue from 23.)\n",
+          "- Chapter 28: 1, 7, 8, 10, 15, 16, 17, 23, 24, 28, 29, 30.\n",
+          "- Chapter 33: 4, 6, 7, 20.\n",
+          "- Chapter 33: 3, 5, 7, 12, 13, 14, 16, 18, 20.\n"
         ),
       },
     ],
