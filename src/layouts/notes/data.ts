@@ -773,7 +773,7 @@ export const noteSections: NoteSection[] = [
           "Manhattab 5Lb. Book of GRE Practice Problems\n",
           "- Chapter 07: 12, 14, 16, 18, 24, 34.\n",
           "- Chapter 08: 30, 41, 52.\n",
-          "- Chapter 09: 7, 9, 13, 20, 23, 25, 26, 27, 28, 30... (Continue from 31-55.)\n",
+          "- Chapter 09: 7, 9, 13, 20, 24, 28, 30, 31, 33, 37... (Continue from 39-55.)\n",
           "- Chapter 10: 4, 11, 12, 25, 26, 39, 40, 50, 52, 56, 63, 69, 70, 71, 72.\n",
           "- Chapter 11: 4, 6, 8, 10... (Continue from 11.)\n",
           "- Chapter 13: 6, 9, 10, 13... (Continue from 15.)\n",
