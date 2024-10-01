@@ -774,7 +774,7 @@ export const noteSections: NoteSection[] = [
           "- Chapter 07: 12, 14, 16, 18, 24, 34.\n",
           "- Chapter 08: 30, 41, 52.\n",
           "- Chapter 09: 7, 9, 13, 20, 24, 28, 30, 31, 33, 37, 39, 44, 45, 47, 50, 52, 54, 55.\n",
-          "- Chapter 10: 4, 11, 12, 25, 26, 39, 40, 50, 52, 56, 63, 69, 70, 71, 72.\n",
+          "- Chapter 10: 2, 4, 12, 26, 38, 39 ... 50, 52, 56, 63, 69, 70, 71, 72.\n",
           "- Chapter 11: 4, 6, 8, 10... (Continue from 11.)\n",
           "- Chapter 13: 6, 9, 10, 13... (Continue from 15.)\n",
           "- Chapter 20: 1, 2, 3, 14, 17, 21, 23... (Continue from 24.)\n",
