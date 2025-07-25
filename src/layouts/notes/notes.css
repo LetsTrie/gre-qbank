@@ -1,0 +1,8 @@
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+
+button:hover {
+  border-color: transparent; /* or whatever color you prefer */
+}

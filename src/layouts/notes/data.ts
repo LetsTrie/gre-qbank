@@ -200,6 +200,52 @@ export const noteSections: NoteSection[] = [
       },
       {
         latexCodes: formatLatexCode(
+          `To compare two fractions, cross-multiply. Let the two fractions be`,
+          `$ \\frac{a}{b} $`,
+          `and`,
+          `$ \\frac{c}{d} $`,
+          `. Cross-multiply: compare`,
+          `$(a \\cdot d)$`,
+          ` vs `,
+          `$(b \\cdot c)$`,
+          `. Whichever product is greater indicates the larger fraction.`,
+          `$\\newline$`,
+          `Example: Compare`,
+          `$\\frac{5}{6}$`,
+          `and`,
+          `$\\frac{6}{7}$`,
+          `. Cross-multiplying gives 5 × 7 = 35 and 6 × 6 = 36. Since 36 > 35,`,
+          `$\\frac{6}{7} > \\frac{5}{6}.$`
+        ),
+      },
+      {
+        latexCodes: formatLatexCode(
+          `Behavior of fractions between 0 and 1 when squared or square-rooted:\n`,
+          `- If`,
+          `$0 < x < 1$`,
+          `then`,
+          `$\\sqrt{x} > x$`,
+          `and`,
+          `$x^2 < x.$`,
+          `$\\newline$`,
+          `- If x > 1, then`,
+          `$\\sqrt{x} < x$`,
+          `and`,
+          `$x^2 > x.$`,
+          `$\\newline$`,
+          `Example: Let`,
+          `$x = 0.99,\\ y = \\sqrt{0.99},\\ z = 0.99^2.$`,
+          `Then,`,
+          `$z < x < y$`,
+          `, and the correct order is:`,
+          `z < x < y.`,
+          `$\\newline$`,
+          `This rule applies to all proper decimals and fractions between 0 and 1.`
+        ),
+      },
+
+      {
+        latexCodes: formatLatexCode(
           "The number of integers from A to B (inclusive): B - A + 1.\n",
           "The number of integers from A to B (exclusive): B - A - 1.\n"
         ),
